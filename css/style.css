@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFF0F3;
+    gap: 64px;
+
+}
+
+.card {
+    width: 52.1875%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+
+.card_image {
+    height: 400px;
+    width: 39.92%;
+    background: #BCD1FF;
+    border-radius: 16px 0px 0px 16px;
+    
+
+}
+
+.card_image>img,
+#card_image> img  {
+    width: 240px;
+    height: auto;
+    max-width: 100%;
+    margin: 80px;
+    object-fit: cover;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 35px;
+}
+
+.card_header_text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+
+#header {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+.card_product_name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+
+#name {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #081F32;
+}
+
+.description {
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #374A59;
+}
+
+
+.more_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+a > p {
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #007AE9;
+margin-left: 12px;
+}
+
+#card_image {
+    height: 400px;
+    width: 39.92%;
+    background: linear-gradient(135deg, #F395BA 0%, #FED182 100%);
+    border-radius: 16px 0px 0px 16px;
+
+}
